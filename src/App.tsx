@@ -1,13 +1,16 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
-import classes from './App.module.css'
+import * as C from "./App.styles";
 
 function App() {
   return (
-    <div className={classes.app}>
-      <h1>GitHub Finder</h1>
+    <C.Container>
+      <Link to={"/"} reloadDocument>
+        <C.Logo src="./logo.png" alt="Home"></C.Logo>
+        <C.Title>HUBusca</C.Title>
+      </Link>
       <Outlet />
-    </div>
+    </C.Container>
   );
 }
 
