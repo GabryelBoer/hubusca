@@ -1,9 +1,9 @@
 const Error = () => {
   return (
-    <div>
-      <p>Usuário não encontrado!</p>
+    <div style={{ marginTop: "2em" }}>
+      <p>Nenhum usuário foi encontrado!</p>
     </div>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;
