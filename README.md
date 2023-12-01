@@ -5,10 +5,9 @@
   <a href="https://github.com/GabryelBoer/hubusca">
     <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
-
   <h2 align="center">HUBusca</h2>
 
-  <img src="./public/project_video.gif" alt="gif">
+  <img src="./public/project_video.gif" alt="gif" width="700">
     <br />
     <a href="https://hubusca-mauve.vercel.app/">Deploy do Projeto</a>
     <br />
@@ -33,7 +32,6 @@
 ## Sobre o Projeto
 
 Desenvolvido como parte do desafio na Clicksoft para a vaga de estágio em Desenvolvimento Front End Web, este projeto foi criado para facilitar a pesquisa de perfis de desenvolvedores por meio da API do GitHub.
-Here's why:
 
 <br />
 <a name="requests"></a>
@@ -41,8 +39,11 @@ Here's why:
 ## Requisitos do Desafio
 
 1. Permita que na tela principal busquemos os dados de uma pessoa do GitHub através do nome de usuário. E que no resultado apareça a foto, o nome, o login e a localização.
+
 2. Permita que ao clicar na foto, abra um perfil com os dados que a API do GitHub fornece: Foto, nome, login, localização, o ID, quantidade de seguidores, quantidade de repositórios públicos, e uma lista com todos os repositórios da pessoa (nome do repositório, linguagem utilizada, descrição, data de criação, data do último push).
+
 3. Ao clicar em um repositório, seremos redirecionados para este repositório no site do GitHub.
+
 4. Crie um menu contendo todos os usuários pesquisados recentemente, que também siga o padrão com os dados iguais ao da tarefa 1, e com perfil igual ao da tarefa 2.
 
 <br />
