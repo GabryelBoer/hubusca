@@ -7,7 +7,7 @@
   </a>
   <h2 align="center">HUBusca</h2>
 
-  <img src="./public/project_video.gif" alt="gif" width="700">
+  <img src="./public/project_video.gif" alt="gif" width="800">
     <br />
     <a href="https://hubusca-mauve.vercel.app/">Deploy do Projeto</a>
     <br />
