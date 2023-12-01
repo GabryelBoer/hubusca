@@ -18,7 +18,7 @@
   <summary>Índice</summary>
   <ol>
     <li><a href="#about-the-project">Sobre o Projeto</a></li>
-    <li><a href="#requests">Requisitos</a></li>
+    <li><a href="#requests">Requisitos do Desafio</a></li>
     <li><a href="#tech">Tecnologias Utilizadas</a></li>
     <li><a href="#func">Funcionalidades</a></li>
     <li><a href="#req">Requisitos e Instalação</a></li>
@@ -76,7 +76,7 @@ Explore os repositórios de um desenvolvedor em detalhes.
 
 ### Aba de Desenvolvedores Pesquisados Recentemente:
 
-Histórico dos desenvolvedores que pesquisados recentemente, permitindo um acesso rápido e fácil para revisitar os perfis visitados.
+Histórico dos desenvolvedores pesquisados recentemente, permitindo um acesso rápido e fácil para revisitar os perfis visitados.
 
 <br />
 <a name="req"></a>
