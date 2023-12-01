@@ -3,31 +3,32 @@
 <br />
 <div align="center">
   <a href="https://github.com/GabryelBoer/hubusca">
-    <img src="./logo.png" alt="Logo" width="80" height="80">
+    <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h2 align="center">HUBusca</h2>
   <a href="https://hubusca-mauve.vercel.app/">Deploy do Projeto</a>
 
-  <img src="./project_video.gif" alt="gif">
+  <img src="./public/project_video.gif" alt="gif">
     <br />
     <br />
     <br />
 </div>
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Índice</summary>
   <ol>
     <li><a href="#about-the-project">Sobre o Projeto</a></li>
     <li><a href="#requests">Requisitos</a></li>
     <li><a href="#tech">Tecnologias Utilizadas</a></li>
     <li><a href="#func">Funcionalidades</a></li>
     <li><a href="#req">Requisitos</a></li>
-    <li><a href="#ins">Instalação</a></li>
     <li><a href="#autor">Autor</a></li>
   </ol>
 </details>
-
+<br />
+<br />
+<br />
 <a name="about-the-project"></a>
 
 ## Sobre o Projeto
@@ -35,8 +36,9 @@
 Desenvolvido como parte do desafio na Clicksoft para a vaga de estágio em Desenvolvimento Front End Web, este projeto foi criado para facilitar a pesquisa de perfis de desenvolvedores por meio da API do GitHub.
 Here's why:
 
-<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
-
+<br />
+<br />
+<br />
 <a name="requests"></a>
 
 ## Requisitos do Desafio
@@ -46,8 +48,9 @@ Here's why:
 3. Ao clicar em um repositório, seremos redirecionados para este repositório no site do GitHub.
 4. Crie um menu contendo todos os usuários pesquisados recentemente, que também siga o padrão com os dados iguais ao da tarefa 1, e com perfil igual ao da tarefa 2.
 
-<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
-
+<br />
+<br />
+<br />
 <a name="tech"></a>
 
 ## Tecnologias Utilizadas
@@ -58,8 +61,9 @@ Here's why:
 - [![React-Router][React-Router]][React-Router-url]
 - [![Axios][Axios]][Axios-url]
 
-<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
-
+<br />
+<br />
+<br />
 <a name="func"></a>
 
 ## Funcionalidades
@@ -80,17 +84,14 @@ Explore os repositórios de um desenvolvedor em detalhes.
 
 Histórico dos desenvolvedores que pesquisados recentemente, permitindo um acesso rápido e fácil para revisitar os perfis visitados.
 
-<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
-
+<br />
+<br />
+<br />
 <a name="req"></a>
 
-## Requisitos
+## Requisitos e Instalação
 
 - Node.js instalado em sua máquina.
-
-<a name="ins"></a>
-
-## Instalação
 
 1. Clone o repositório:
    ```sh
@@ -109,8 +110,9 @@ Histórico dos desenvolvedores que pesquisados recentemente, permitindo um acess
    npm run dev
    ```
 
-<p align="right">(<a href="#readme-top">Voltar para o topo</a>)</p>
-
+<br />
+<br />
+<br />
 <a name="autor"></a>
 
 ## Autor
