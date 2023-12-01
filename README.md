@@ -7,10 +7,10 @@
   </a>
 
   <h2 align="center">HUBusca</h2>
-  <a href="https://hubusca-mauve.vercel.app/">Deploy do Projeto</a>
 
   <img src="./public/project_video.gif" alt="gif">
     <br />
+    <a href="https://hubusca-mauve.vercel.app/">Deploy do Projeto</a>
     <br />
     <br />
 </div>
@@ -22,12 +22,11 @@
     <li><a href="#requests">Requisitos</a></li>
     <li><a href="#tech">Tecnologias Utilizadas</a></li>
     <li><a href="#func">Funcionalidades</a></li>
-    <li><a href="#req">Requisitos</a></li>
+    <li><a href="#req">Requisitos e Instalação</a></li>
     <li><a href="#autor">Autor</a></li>
   </ol>
 </details>
-<br />
-<br />
+
 <br />
 <a name="about-the-project"></a>
 
@@ -36,8 +35,6 @@
 Desenvolvido como parte do desafio na Clicksoft para a vaga de estágio em Desenvolvimento Front End Web, este projeto foi criado para facilitar a pesquisa de perfis de desenvolvedores por meio da API do GitHub.
 Here's why:
 
-<br />
-<br />
 <br />
 <a name="requests"></a>
 
@@ -49,8 +46,6 @@ Here's why:
 4. Crie um menu contendo todos os usuários pesquisados recentemente, que também siga o padrão com os dados iguais ao da tarefa 1, e com perfil igual ao da tarefa 2.
 
 <br />
-<br />
-<br />
 <a name="tech"></a>
 
 ## Tecnologias Utilizadas
@@ -61,8 +56,6 @@ Here's why:
 - [![React-Router][React-Router]][React-Router-url]
 - [![Axios][Axios]][Axios-url]
 
-<br />
-<br />
 <br />
 <a name="func"></a>
 
@@ -84,8 +77,6 @@ Explore os repositórios de um desenvolvedor em detalhes.
 
 Histórico dos desenvolvedores que pesquisados recentemente, permitindo um acesso rápido e fácil para revisitar os perfis visitados.
 
-<br />
-<br />
 <br />
 <a name="req"></a>
 
@@ -110,8 +101,6 @@ Histórico dos desenvolvedores que pesquisados recentemente, permitindo um acess
    npm run dev
    ```
 
-<br />
-<br />
 <br />
 <a name="autor"></a>
 
