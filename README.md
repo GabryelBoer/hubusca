@@ -76,7 +76,7 @@ Explore os repositórios de um desenvolvedor em detalhes.
 
 ### Aba de Desenvolvedores Pesquisados Recentemente:
 
-Histórico dos desenvolvedores pesquisados recentemente, permitindo um acesso rápido e fácil para revisitar os perfis visitados.
+Histórico dos desenvolvedores pesquisados recentemente, permitindo um acesso rápido e fácil para revisitar os perfis acessados.
 
 <br />
 <a name="req"></a>
@@ -87,7 +87,7 @@ Histórico dos desenvolvedores pesquisados recentemente, permitindo um acesso r�
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/seu-usuario/hubusca.git
    ```
 2. Acesse o diretório do projeto:
    ```sh
