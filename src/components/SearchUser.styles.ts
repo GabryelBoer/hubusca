@@ -10,6 +10,10 @@ export const Container = styled.div`
   box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.8);
 `;
 
+export const ContainerUsers = styled.div`
+  width: 100%;
+`;
+
 export const Profile = styled.div`
   width: 100%;
   padding: 1.5em;

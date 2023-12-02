@@ -27,6 +27,10 @@ export const Clear = styled.p`
   font-size: 0.9em;
 `;
 
+export const ContainerUsers = styled.div`
+  width: 100%;
+`;
+
 export const Profile = styled.div`
   width: 100%;
   padding: 1.5em;

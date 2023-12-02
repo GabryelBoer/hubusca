@@ -2,7 +2,6 @@ import { UserProps } from "../types/user";
 import axios from "axios";
 
 import Search from "../components/Search";
-import User from "../components/User";
 import Error from "../components/Error";
 
 import { useState } from "react";
@@ -19,19 +18,9 @@ type BasicUserProps = {
   location: string;
 };
 
-type RepoProps = {
-  name: string;
-  id: number;
-  description: string;
-  html_url: string;
-  created_at: string;
-  pushed_at: string;
-  language: string;
-};
-
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [user, setUser] = useState<UserProps | null>(null);
+  const [user, setUser] = useState<BasicUserProps | null>(null);
   const [tempUsers, setTempUsers] = useState<BasicUserProps[] | null>(null);
   const [error, setError] = useState(false);
   const [isInputActive, setIsInputActive] = useState(false);
@@ -90,49 +79,22 @@ const Home = () => {
   };
 
   const loadUser = async (loginUser: string) => {
-    setIsLoading(true);
     const userResponse = await axios.get(
       `https://api.github.com/users/${loginUser}`
     );
-    const reposReponse = await axios.get(
-      `https://api.github.com/users/${loginUser}/repos`
-    );
 
-    const dataUser: UserProps = userResponse.data;
-    const dataRepos: RepoProps[] = reposReponse.data;
+    const dataUser: BasicUserProps = userResponse.data;
 
-    const data: UserProps = { ...dataUser, repos: dataRepos };
+    const data: BasicUserProps = { ...dataUser };
 
-    const {
+    const { avatar_url, login, id, name, location } = data;
+
+    const userData: BasicUserProps = {
       avatar_url,
       login,
-      name,
       id,
-      location,
-      followers,
-      public_repos,
-      repos: repoData,
-    } = data;
-
-    const reposInfo: RepoProps[] = repoData.map((repo: any) => ({
-      name: repo.name,
-      id: repo.id,
-      description: repo.description,
-      html_url: repo.html_url,
-      created_at: repo.created_at,
-      pushed_at: repo.pushed_at,
-      language: repo.language,
-    }));
-
-    const userData: UserProps = {
-      avatar_url,
-      login,
       name,
-      id,
       location,
-      followers,
-      public_repos,
-      repos: reposInfo,
     };
     setUser(userData);
 
@@ -155,7 +117,6 @@ const Home = () => {
       localStorage.setItem("searchHistory", JSON.stringify(updatedHistory));
       setSearchHistory(updatedHistory);
     }
-    setIsLoading(false);
   };
 
   const handleInputFocus = (isActive: boolean) => {
@@ -175,18 +136,12 @@ const Home = () => {
       {isLoading && !error && <Loading />}
 
       {searchHistory.length !== 0 && isInputActive && tempUsers === null && (
-        <HistoryUsers
-          users={searchHistory}
-          loadUser={loadUser}
-          clearHistory={clearHistory}
-        />
+        <HistoryUsers users={searchHistory} clearHistory={clearHistory} />
       )}
 
       {tempUsers && !user && !isLoading && (
         <SearchUser users={tempUsers} loadUser={loadUser} />
       )}
-
-      {user && <User {...user} />}
 
       {error && <Error />}
     </div>

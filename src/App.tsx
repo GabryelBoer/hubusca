@@ -5,8 +5,8 @@ import * as C from "./App.styles";
 function App() {
   return (
     <C.Container>
-      <Link to={"/"} reloadDocument>
-        <C.Logo src="./logo.png" alt="Home"></C.Logo>
+      <Link to={"/"}>
+        <C.Logo src="/logo.png" alt="Home"></C.Logo>
         <C.Title>HUBusca</C.Title>
       </Link>
       <Outlet />
